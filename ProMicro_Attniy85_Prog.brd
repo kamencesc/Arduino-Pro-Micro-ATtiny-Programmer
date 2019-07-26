@@ -87,8 +87,10 @@
 <wire x1="26.035" y1="14.9225" x2="22.225" y2="14.9225" width="0.2032" layer="21"/>
 <wire x1="22.225" y1="14.9225" x2="22.225" y2="7.9375" width="0.2032" layer="21"/>
 <wire x1="22.225" y1="7.9375" x2="26.035" y2="7.9375" width="0.2032" layer="21"/>
-<text x="17.4625" y="9.525" size="0.8128" layer="21" rot="R90">10nF</text>
+<text x="17.145" y="9.525" size="0.8128" layer="21" rot="R90">10nF</text>
 <text x="21.9075" y="11.43" size="0.8128" layer="21" rot="R90" align="bottom-center">LED</text>
+<text x="31.115" y="7.62" size="0.8128" layer="21" align="top-right">220ohm</text>
+<text x="31.4325" y="15.875" size="0.8128" layer="21" align="top-right">R1 R2 R3</text>
 </plain>
 <libraries>
 <library name="_hhn_attiny25_45_85 (1)">
@@ -611,15 +613,12 @@ Source: http://www.osram.convergy.de/ ... lb_r99a.pdf</description>
 <attribute name="VALUE" x="25.7175" y="11.43" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="R1" library="rc-master-smd" package="R0805" value="" x="29.21" y="8.89" smashed="yes" rot="R180">
-<attribute name="NAME" x="30.988" y="7.62" size="0.8128" layer="25" ratio="18" rot="R180"/>
 <attribute name="VALUE" x="30.988" y="10.668" size="0.6096" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="R2" library="rc-master-smd" package="R0805" value="" x="29.21" y="11.43" smashed="yes" rot="R180">
-<attribute name="NAME" x="30.988" y="10.16" size="0.8128" layer="25" ratio="18" rot="R180"/>
 <attribute name="VALUE" x="30.988" y="13.208" size="0.6096" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="R3" library="rc-master-smd" package="R0805" value="" x="29.21" y="13.97" smashed="yes" rot="R180">
-<attribute name="NAME" x="30.988" y="12.7" size="0.8128" layer="25" ratio="18" rot="R180"/>
 <attribute name="VALUE" x="30.988" y="15.748" size="0.6096" layer="27" ratio="10" rot="R180"/>
 </element>
 </elements>
@@ -662,11 +661,10 @@ Source: http://www.osram.convergy.de/ ... lb_r99a.pdf</description>
 <vertex x="0.3175" y="-0.3175"/>
 </polygon>
 <polygon width="0.2032" layer="16">
-<vertex x="0.3175" y="22.5425"/>
-<vertex x="32.7025" y="22.5425"/>
-<vertex x="32.7025" y="-0.3175"/>
-<vertex x="0.3175" y="-0.3175"/>
-<vertex x="0.3175" y="22.225"/>
+<vertex x="0.3175" y="22.86"/>
+<vertex x="33.02" y="22.86"/>
+<vertex x="33.02" y="-0.635"/>
+<vertex x="0.3175" y="-0.635"/>
 </polygon>
 </signal>
 <signal name="VCC">
@@ -790,11 +788,11 @@ Source: http://www.osram.convergy.de/ ... lb_r99a.pdf</description>
 <contactref element="JP2" pad="23"/>
 <contactref element="JP2" pad="24"/>
 <wire x1="2.54" y1="20.32" x2="2.54" y2="17.78" width="0.2032" layer="1"/>
-<wire x1="2.54" y1="17.78" x2="3.679075" y2="17.78" width="0.2032" layer="16"/>
-<wire x1="3.679075" y1="17.78" x2="4.669675" y2="16.7894" width="0.2032" layer="16"/>
-<wire x1="28.6131" y1="16.7894" x2="30.1625" y2="15.24" width="0.2032" layer="16"/>
+<wire x1="2.54" y1="17.78" x2="3.361575" y2="17.78" width="0.2032" layer="16"/>
+<wire x1="3.361575" y1="17.78" x2="4.669675" y2="16.4719" width="0.2032" layer="16"/>
+<wire x1="28.9306" y1="16.4719" x2="30.1625" y2="15.24" width="0.2032" layer="16"/>
 <via x="30.1625" y="15.24" extent="1-16" drill="0.35"/>
-<wire x1="4.669675" y1="16.7894" x2="28.6131" y2="16.7894" width="0.2032" layer="16"/>
+<wire x1="4.669675" y1="16.4719" x2="28.9306" y2="16.4719" width="0.2032" layer="16"/>
 <contactref element="R3" pad="1"/>
 <wire x1="30.1625" y1="15.24" x2="30.226" y2="15.1765" width="0.2032" layer="1"/>
 <wire x1="30.226" y1="15.1765" x2="30.226" y2="13.97" width="0.2032" layer="1"/>
