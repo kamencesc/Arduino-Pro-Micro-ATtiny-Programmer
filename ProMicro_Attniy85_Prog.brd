@@ -557,7 +557,6 @@ Ingenieurbüro ing-rb, &lt;i&gt;mail@ing-rb.de&lt;/i&gt;&lt;/p&gt;&lt;/author&gt
 <wire x1="25.4" y1="20.32" x2="25.4" y2="17.78" width="0.4064" layer="1"/>
 <wire x1="22.86" y1="17.78" x2="20.32" y2="15.24" width="0.4064" layer="1"/>
 <wire x1="20.32" y1="12.446" x2="20.32" y2="15.24" width="0.4064" layer="1"/>
-<wire x1="20.32" y1="12.446" x2="20.574" y2="12.446" width="0.2032" layer="1"/>
 <wire x1="5.08" y1="15.24" x2="7.874" y2="12.446" width="0.4064" layer="1"/>
 <wire x1="7.874" y1="12.446" x2="20.32" y2="12.446" width="0.4064" layer="1"/>
 <wire x1="20.32" y1="12.446" x2="26.289" y2="12.446" width="0.4064" layer="1"/>
@@ -579,6 +578,7 @@ Ingenieurbüro ing-rb, &lt;i&gt;mail@ing-rb.de&lt;/i&gt;&lt;/p&gt;&lt;/author&gt
 <via x="16.51" y="6.985" extent="1-16" drill="0.35"/>
 <contactref element="JP3" pad="21"/>
 <contactref element="JP3" pad="22"/>
+<wire x1="27.94" y1="2.54" x2="27.94" y2="5.08" width="0.4064" layer="1"/>
 </signal>
 <signal name="VCC">
 <contactref element="U1" pad="8"/>
@@ -592,7 +592,6 @@ Ingenieurbüro ing-rb, &lt;i&gt;mail@ing-rb.de&lt;/i&gt;&lt;/p&gt;&lt;/author&gt
 </signal>
 <signal name="RST">
 <contactref element="C1" pad="2"/>
-<wire x1="25.4" y1="5.08" x2="25.4" y2="5.334" width="0.2032" layer="1"/>
 <wire x1="20.32" y1="10.414" x2="23.876" y2="10.414" width="0.2032" layer="1"/>
 <wire x1="25.4" y1="8.89" x2="25.4" y2="5.08" width="0.2032" layer="1"/>
 <wire x1="23.876" y1="10.414" x2="25.4" y2="8.89" width="0.2032" layer="1"/>
