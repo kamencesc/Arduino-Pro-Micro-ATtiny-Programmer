@@ -12,6 +12,7 @@ There are *OPTIONAL* LEDs as you can see in ~~[Utiliza tu placa Arduino como pro
 |Top|Green|Heartbeat|
 |Middle \*|Red|Error|
 |Bottom \*|Yellow|Programming|
+
 \* optional
 
 ![PCB](./PCB.png)
